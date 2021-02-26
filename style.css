@@ -74,3 +74,49 @@ img {
 
 
 /* START MEDIA QUERY */
+@media screen and (max-width:419px) {
+  .row {
+    max-width: 419px;
+    width: auto;
+    margin-top: 10px;
+  } 
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    max-width: 100%;
+    width: auto;
+  }
+
+  /* blocco steps */
+ 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    max-width: 100%;
+    width: auto;
+  }
+
+  /* blocco why */
+ 
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    max-width: 100%;
+    width: auto;
+    margin-top: 80px;
+  } 
+
+  /* container */
+
+  .container.grey {
+    max-width: 100%;
+    width: auto;
+  }
+
+  
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
+} 
